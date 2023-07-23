@@ -1,5 +1,6 @@
 import NotificationElement from "./components/notificationElement/index"
 import InstagramIcon from "./imgs/instagram.png";
+import YoutubeIcon from "./imgs/youtube.png";
 import Matheus from "./imgs/109868999.jpg";
 import { BellDot } from "lucide-react";
 
@@ -26,8 +27,8 @@ export default function Home() {
           <NotificationElement
             provedor="Youtube" 
             nome='FlowGames' 
-            iconProv={InstagramIcon} 
-            imagemUser={Matheus} 
+            iconProv={YoutubeIcon} 
+            imagemUser={YoutubeIcon} 
             mensagem="Compra da ActvisionBlizzard" 
           />
         </section>

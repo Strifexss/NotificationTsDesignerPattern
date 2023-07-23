@@ -40,10 +40,10 @@ export default function index({imagemUser, iconProv, nome, mensagem, provedor, h
             </div>
             {hasAction &&
                 <div className="h-[3rem] w-full flex flex-row justify-end pr-4 mt-4 gap-2">
-                    <button className="bg-[#e61010] hover:bg-[#941f1f] w-[5rem] h-[2rem] ">
+                    <button className="bg-[#e61010] hover:bg-[#941f1f] w-[5rem] h-[2rem] transition-[0.1s]">
                         Recusar
                     </button>
-                    <button className="bg-[#1cc414] hover:bg-[#2d8c29] w-[5rem] h-[2rem]  ">
+                    <button className="bg-[#1cc414] hover:bg-[#2d8c29] w-[5rem] h-[2rem] transition-[0.1s]">
                         Aceitar
                     </button>
                 </div>    
